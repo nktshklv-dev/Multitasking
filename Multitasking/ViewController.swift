@@ -34,7 +34,7 @@ class ViewController: UIViewController, WKNavigationDelegate, UITextFieldDelegat
         
         stackView.addArrangedSubview(webView)
         
-        let url = URL(string: "https://www.hackingwithswift.com")!
+        let url = URL(string: "https://google.com")!
         webView.load(URLRequest(url: url))
         
         
